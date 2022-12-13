@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trabajo Final</title>
+</head>
+<body>
+    <!--Header-->
+    <header class="mainHeader">
+        <nav class="navigationBar">
+            <h1 class="navigationLogo">Desayunos sorpresa</h1>
+            <h1 class="showInvoice" id="showInvoice">🛒<span id="cartQuantity" class="cartQuantity"></span></h1>
+        </nav>
+        <hr class="line">
+        <div class="headerButtons">
+            <button>Header</button>
+            <button>Productos</button>
+        </div>
+    </header>
+    <!--Main products-->
+    <main id="displayProducts" class="displayProducts"></main>
+    <!--Contenido del carrito-->
+    <div id="cartContents" class="cartContents"></div>
+    <!--Pie de página-->
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="../imagenes/imgLogo.png" alt="Logo">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>MIEMBROS DEL EQUIPO</h2>
+                <p>Maria Jose Paz Garcia</p>
+            </div>
+            <div class="box">
+                <h2>CONTÁCTANOS</h2>
+                <P>DesayunoSorpresa27@gmail.com</P>
+                <p>+57 315 3998560</p>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022 <b>Desayunos Sorpresa</b> - Todos Los Derechos Reservados.</small>
+        </div>
+    </footer>
+
+    <script src="javaScript/products.js"></script>
+    <script src="javaScript/main.js"></script>
+</body>
+</html>
